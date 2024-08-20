@@ -5,6 +5,7 @@ from scipy.interpolate import griddata
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import io
+import openpyxl
 
 st.set_page_config(layout="wide")
 
