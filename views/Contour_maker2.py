@@ -282,7 +282,7 @@ with st.form(key='Inputs'):
 
     col1a, col1b, col1c = st.columns(3)
     with col1b:
-        save = st.form_submit_button('Save', use_container_width=True)
+        save = st.form_submit_button('frog', use_container_width=True)
 
 # Button functionality
     if save:
