@@ -28,7 +28,7 @@ def create_matplotlib_contourfig_plotting():
         fig.colorbar(contourf, ax=ax, label='Elevations')
 
     if show_grids_sb == 'Show':
-        ax.grid(True, linestyle='-', linewidth=0.8, color=grid_color_dict[grids_color])
+        ax.grid(True, linestyle='-', linewidth=0.5, color=grid_color_dict[grids_color])
         ax.set_aspect('equal', adjustable='box')
 
     if contour_elev == 'Show':
@@ -56,7 +56,7 @@ def create_matplotlib_contourfig_saving():
         fig.colorbar(contourf, ax=ax, label='Elevations')
 
     if show_grids_sb == 'Show':
-        ax.grid(True, linestyle='-', linewidth=0.8, color=grid_color_dict[grids_color])
+        ax.grid(True, linestyle='-', linewidth=0.5, color=grid_color_dict[grids_color])
         ax.set_aspect('equal', adjustable='box')
 
     if contour_elev == 'Show':
@@ -276,9 +276,13 @@ with st.form(key='Inputs'):
 
     with col2:
         y_column_num = st.number_input('Column no. containing y-values', value=0, min_value=0)
-        save = st.form_submit_button('Save', use_container_width=True)
+        
     with col3:
         z_column_num = st.number_input('Column no. containing Elevations', value=0, min_value=0)
+
+    col1a, col1b, col1c = st.columns(3)
+    with col1b:
+        save = st.form_submit_button('Save', use_container_width=True)
 
 # Button functionality
     if save:
