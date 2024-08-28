@@ -8,10 +8,14 @@ with col0b:
 
 st.write("### :blue-background[**:material/code_blocks: Developer**]")
 st.write("""
+
 ***Ameer Hamza Ali***  
 ***Batch 2022***  
 ***Department of Civil Engineering***  
-***NED University of Engineering & Technology, Karachi, Pakistan*** 
+***NED University of Engineering & Technology, Karachi, Pakistan***  
+  
+Check out my profile:  
+https://about-hamza-ali.streamlit.app/
 """)
 
 st.write('\n')
