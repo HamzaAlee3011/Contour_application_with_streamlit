@@ -17,11 +17,11 @@ contourmaker_page2 = st.Page(
     icon=":material/bid_landscape:",
 )
 
-about_me = st.Page(
-    page="views/about_me.py",
-    title="About Me",
-    icon=":material/account_circle:",
-)
+# about_me = st.Page(
+#     page="views/about_me.py",
+#     title="About Me",
+#     icon=":material/account_circle:",
+# )
 
 about_app = st.Page(
     page="views/about_app.py",
@@ -42,7 +42,7 @@ instructions = st.Page(
 pg = st.navigation({
     'Application': [contourmaker_page2],
     'Usage': [instructions],
-    'Info': [about_me, about_app],
+    'Info': [about_app],
 })
 
 # SHARED ON ALL PAGES
