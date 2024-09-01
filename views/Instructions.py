@@ -48,6 +48,12 @@ with col1b:
 st.write('\n')
 st.write('\n')
 st.write('## **3) :orange-background[Customizations for Plot]**')
+st.write('\n')
+st.write("""
+### **Important Note**
+- After making any changes to the settings, make sure to press the :red-background[**Plot**] button to apply the changes and update the contour map.
+""")
+st.write('\n')
 
 with st.expander('### **Selecting Visualization Engine**'):
     st.write("""
@@ -85,7 +91,3 @@ with st.expander('### **3D Visualization Toggle**'):
     with col2:
         st.image('./assets/3d_vis_example.jpeg', caption='Reference Image')
 
-st.write("""
-### **Important Note**
-- After making any changes to the settings, make sure to press the :red-background[**Plot**] button to apply the changes and update the contour map.
-""")
