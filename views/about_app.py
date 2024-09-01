@@ -13,9 +13,12 @@ st.write("""
 ***Batch 2022***  
 ***Department of Civil Engineering***  
 ***NED University of Engineering & Technology, Karachi, Pakistan***  
-  
+
 Check out my profile:  
-https://about-hamza-ali.streamlit.app/
+https://about-hamza-ali.streamlit.app/  
+
+Let's connect!:  
+https://www.linkedin.com/in/hamza-ali-35449a2aa/
 """)
 
 st.write('\n')
